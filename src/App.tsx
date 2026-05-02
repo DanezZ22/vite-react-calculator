@@ -36,9 +36,9 @@ function App() {
         <tbody>
         <tr>
           <td colSpan={2}>
-            <input type='text' value={broj1} onChange={(e) => {
+            <input type='number' value={broj1} onChange={(e) => {
               const value = e.target.value
-              if (value ==='') {
+              if (value === '') {
                 setBroj1(0)} 
                 else {
                   const broj = Number(value)
@@ -47,9 +47,9 @@ function App() {
               }}></input>
           </td>
           <td colSpan={2}>
-            <input type='textbox' value={broj2} onChange={(e) => {
+            <input type='number' value={broj2} onChange={(e) => {
               const value = e.target.value
-              if (value ==='') {
+              if (value === '') {
                 setBroj2(0)
               } 
               else {
@@ -75,7 +75,7 @@ function App() {
         </tr>
         <tr>
           <td colSpan={4}>
-            <label className='result'>Rezultat je: {result}</label>
+            <label className='result'>Rezultat je: </label><span>{result}</span>
           </td>
         </tr>
         </tbody>

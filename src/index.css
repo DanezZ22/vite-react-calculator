@@ -144,3 +144,8 @@ label{
   height: 50px;
   width: 100px;
 }
+
+span{
+  font-size: larger;
+  font-weight: bold;
+}
