@@ -30,7 +30,7 @@ function App() {
       <table>
         <thead>
         <tr>
-          <th colSpan={4}>Kalkulator</th>
+          <th colSpan={4}>Kalk</th>
         </tr>
         </thead>
         <tbody>
